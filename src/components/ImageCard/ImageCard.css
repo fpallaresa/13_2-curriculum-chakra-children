@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    width: 400px;
+    box-shadow: 1px 5px 9px 0px #c3c3c3;
+}
+
+.card__image {
+    width: 400px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.card__info {
+    padding: 20px 30px;
+}
+
+.card__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.card__text {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.card__link {
+    cursor: pointer;
+    text-decoration: dashed;
+    color:var(--chakra-colors-blue-400);
+}
+
+.card__link:hover {
+    color:var(--chakra-colors-blue-600);
+}

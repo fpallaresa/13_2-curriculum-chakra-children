@@ -1,0 +1,15 @@
+.cards__title {
+    font-size: var(--chakra-fontSizes-2xl);
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 100px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    max-width: 1024px;
+}
